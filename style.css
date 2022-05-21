@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*  <!--Download this File and practice FlexBox-->
+
+    flex-direction: row|row-reverse|column|column-reverse; 
+    
+    justify-content:center|flex-start|flex-end|space-between|space-evenly|space-around;
+    
+    align-content:center|flex-start|flex-end|space-between|space-evenly|space-around; --modifies the behaviour of flex-wrap property.
+    
+    align-items:center|flex-start|flex-end|space-between|space-evenly|space-around|baseline;
+    
+    align-self: auto|stretch|center|flex-start|flex-end|baseline|initial|inherit;
+    
+    flex-wrap: wrap|no-wrap;
+    
+    flex-basis:1;
+    
+    flex-shrink:1;
+    
+    flex-grow:1;
+    
+    flex:1; ---shorthand property of flex-grow, flex-shrink, flex-basis.
+
+
+*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1,
+.item2,
+.item3 {
+  padding: 2rem;
+  background: #fff;
+}
+
+.item2 {
+  background: #222;
+  color: #fff;
+}
